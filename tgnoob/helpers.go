@@ -17,6 +17,7 @@ import (
 	"encoding/asn1"
 	"encoding/pem"
 	"fmt"
+	"github.com/aporeto-inc/tg/tglib"
 	"io/ioutil"
 	"net"
 	"os"
@@ -24,8 +25,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"go.aporeto.io/tg/tglib"
 )
 
 // GenerateCertificate is a wrapper on top of tglib.IssueCertificate.

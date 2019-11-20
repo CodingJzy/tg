@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/aporeto-inc/tg/tgnoob"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"go.aporeto.io/tg/tgnoob"
 )
 
 func addOutputFlags(cmd *cobra.Command) {

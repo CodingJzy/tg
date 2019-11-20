@@ -1,4 +1,4 @@
-module go.aporeto.io/tg
+module github.com/aporeto-inc/tg
 
 go 1.12
 

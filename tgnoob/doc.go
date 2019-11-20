@@ -10,4 +10,4 @@
 // limitations under the License.
 
 // Package tgnoob is depreacted and shold not be used.
-package tgnoob // import "go.aporeto.io/tg/tgnoob"
+package tgnoob // import "github.com/aporeto-inc/tg/tgnoob"
